@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(136, 218, 136, 0.815);
+
+}
+.main-container {
+    display: flex;
+    height: 100vh;
+    border: 5px solid rgb(41, 192, 41);
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    border: 5px solid blue;                                                                                                                                                       px;
+    height: 125px;
+    margin: 20px;
+    background-color: rgba(179, 179, 241, 0.514);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h-element {
+    border: 5px solid rgba(200, 105, 121, 0.979);
+    background-color: rgb(244, 216, 150);
+    width: 31%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    display: inline-block;
+    background-color: pink;
+    border: 5px solid red;
+    width: 48%;
+    height: 85%;
+}
+
+.f {
+    margin: 3px 0px 3px 3px;
+}
+
+.s {
+    margin: 3px 3px 3px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.container-box {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+    height: 250px;
+
+}
+
+.box {
+    display: inline-block;
+    border: 5px solid brown;
+    background-color: rgb(219, 194, 198);
+    width: 46%;
+    margin-left: -20px;
+    height: 250px;
+}
+
+.mid-box {
+    display: flex;
+    border: 5px solid brown;
+    background-color: rgb(219, 194, 198);
+    width: 95%;
+    height: 120px;
+    margin: 0px 15px;
+
+}
+
+.first {
+    margin: 0px 15px 15px ;
+}
+
+.footer {
+    display: flex;
+    border: 5px solid blue;                                                                                                                                                       px;
+    height: 125px;
+    margin: 20px;
+    background-color: rgba(179, 179, 241, 0.514);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f-element {
+    border: 5px solid rgb(221, 62, 221);
+    background-color: rgb(219, 229, 244);
+    width: 31%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementf {
+    border: 5px solid rgba(200, 105, 121, 0.979);
+    background-color: rgb(244, 216, 150);
+    width: 15.5%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
